@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BodyCheck 다운로드</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body class="bg-gradient-to-r from-purple-600 to-blue-500 flex items-center justify-center min-h-screen">
+    <div class="text-center bg-white p-10 rounded-3xl shadow-2xl max-w-md animate-fadeIn">
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">BodyCheck 다운로드</h1>
+        <p class="text-gray-600 mb-6">최신 버전의 앱을 다운로드하고 새로운 기능을 경험하세요!</p>
+        <a href="https://github.com/bbky323/BodyCheckRelease/releases/download/v1.0.0/app-release.1.apk" download="app-release.apk" 
+            class="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg 
+                   transition transform hover:scale-110 hover:bg-blue-700 block w-full animate-pulse">
+            📥 다운로드
+        </a>
+        <p class="text-sm text-gray-500 mt-4">파일 크기: 172MB | 버전: 1.0.0</p>
+    </div>
+</body>
+</html>
